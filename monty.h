@@ -73,5 +73,7 @@ void f_pint(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void f_pall(stack_t **head, unsigned int counter);
-int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
+char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
+ssize_t getstdin(char **lineptr, int file);
+char  *clean_line(char *content);
 #endif
