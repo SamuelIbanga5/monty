@@ -58,6 +58,7 @@ void free_stack(stack_t *head);
 void f_stack(stack_t **head, unsigned int counter);
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter);
+void f_queue(stack_t **head, unsigned int counter);
 void f_pchar(stack_t **head, unsigned int counter);
 void f_pstr(stack_t **head, unsigned int counter);
 void f_pop(stack_t **head, unsigned int counter);
@@ -71,5 +72,6 @@ void f_swap(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
+void f_pall(stack_t **head, unsigned int counter);
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
 #endif
