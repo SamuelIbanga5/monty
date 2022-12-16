@@ -11,7 +11,7 @@ void f_mul(stack_t **head, unsigned int counter)
 	int len = 0, aux;
 
 	h = *head;
-	while (h)
+	while (h != NULL)
 	{
 		h = h->next;
 		len++;
