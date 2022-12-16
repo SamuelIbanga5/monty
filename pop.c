@@ -1,9 +1,11 @@
 #include "monty.h"
 /**
- * f_pop - prints the top
+ * f_pop - removes the top elements of the stack
  * @head: stack head
  * @counter: line_number
  * Return: no return
+ * if stack is empty print error message
+ * can't pop an empty stack
 */
 void f_pop(stack_t **head, unsigned int counter)
 {
